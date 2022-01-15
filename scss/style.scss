@@ -1,10 +1,41 @@
 @import 'reset';
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.title{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+.text{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+}
+.button{
+	width: 161px;
+	height: 44px;
+	border: 1px solid rgba(255, 255, 255, 0);
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	a{
+		text-decoration: none;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 44px;
+		color: #FFFFFF;
+	}
+}
 body{
 	position:relative;
 	width:100%;
 	height: 5097px;
 }
+<<<<<<< HEAD
 
 /*Саша*/
 .navbar {
@@ -207,3 +238,113 @@ body{
 	}
 }
 
+=======
+main{
+	position:relative;
+	top: 1260px;
+	.about{
+		position: relative;
+		.container__about{
+			display: flex;
+			justify-content:center;
+			.body__about{
+				display: flex;
+				flex-direction: row;
+			}
+			.about-colummn{
+				margin-left: 100px;
+				.subtitle__about{
+					font-size: 16px;
+				}
+				.list{
+					font-family: Lato;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 160%;
+					span{
+						margin-left: 35px;
+					}
+					li{
+						margin-top:12px;
+					}
+					li::before{
+						content: "";
+						width: 16px;
+						height: 16px;
+						background-image: url('../img/about-icons.png');
+						display: inline-block;
+						position: relative;
+						margin-right: 20px;
+					}
+				}
+				.button-about{
+					margin-top: 100px;
+				}
+			}
+		}
+	}
+	.about__benefits{
+		position: relative;
+		top: 132px;
+		.body__benefits{
+			max-width: 1230px;
+		}
+		.container__benefits{
+			display: flex;
+			justify-content: center;
+			.benefits__header{
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+				.benefits__subtitle{
+					font-size: 16px;
+					text-transform: uppercase;
+				}
+			}
+			.benefits__footer{
+				display: flex;
+				flex-direction: row;
+				margin-top: 200px;
+				.title__text{
+					font-size: 32px;
+					line-height: 130%;
+				}
+				.text{
+					margin-top: 24px;
+				}
+				.benefits__img{
+					margin-left: 135px;
+				}
+			}
+		}
+	}
+	.rewards{
+		position: relative;
+		top: 411px;
+		.rewards__container{
+			display: flex;
+			flex-direction: row;
+			justify-content:center;
+			.rewards__body{
+				display: flex;
+				flex-direction: row;
+			}
+			.rewards__subtitle{
+				font-size: 16px;
+				text-transform: uppercase;
+			}
+			.text{
+				margin-top: 48px;
+			}
+			.icons{
+				margin-top: 48px;
+			}
+			.certificate{
+				position: relative;
+				left: 180px;
+			}
+		}
+	}
+}
+>>>>>>> 7c1275a89894d54d51420188b46b87e3e4621b93
