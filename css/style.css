@@ -52,12 +52,47 @@ table {
   border-spacing: 0;
 }
 
+.title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.button {
+  width: 161px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+}
+
+.button a {
+  text-decoration: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
 body {
   position: relative;
   width: 100%;
   height: 5097px;
 }
 
+<<<<<<< HEAD
 .workers {
   background-color: #DCDCDC;
   margin-top: 3980px;
@@ -111,4 +146,174 @@ body {
   color: honeydew;
   margin-left: 400px;
   font-family: Loto;
+=======
+main {
+  position: relative;
+  top: 1260px;
+}
+
+main .about {
+  position: relative;
+}
+
+main .about .container__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .about .container__about .body__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .about .container__about .about-colummn {
+  margin-left: 100px;
+}
+
+main .about .container__about .about-colummn .subtitle__about {
+  font-size: 16px;
+}
+
+main .about .container__about .about-colummn .list {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+main .about .container__about .about-colummn .list span {
+  margin-left: 35px;
+}
+
+main .about .container__about .about-colummn .list li {
+  margin-top: 12px;
+}
+
+main .about .container__about .about-colummn .list li::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/about-icons.png");
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+
+main .about .container__about .about-colummn .button-about {
+  margin-top: 100px;
+}
+
+main .about__benefits {
+  position: relative;
+  top: 132px;
+}
+
+main .about__benefits .body__benefits {
+  max-width: 1230px;
+}
+
+main .about__benefits .container__benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .about__benefits .container__benefits .benefits__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main .about__benefits .container__benefits .benefits__header .benefits__subtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+main .about__benefits .container__benefits .benefits__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 200px;
+}
+
+main .about__benefits .container__benefits .benefits__footer .title__text {
+  font-size: 32px;
+  line-height: 130%;
+}
+
+main .about__benefits .container__benefits .benefits__footer .text {
+  margin-top: 24px;
+}
+
+main .about__benefits .container__benefits .benefits__footer .benefits__img {
+  margin-left: 135px;
+}
+
+main .rewards {
+  position: relative;
+  top: 411px;
+}
+
+main .rewards .rewards__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .rewards .rewards__container .rewards__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .rewards .rewards__container .rewards__subtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+main .rewards .rewards__container .text {
+  margin-top: 48px;
+}
+
+main .rewards .rewards__container .icons {
+  margin-top: 48px;
+}
+
+main .rewards .rewards__container .certificate {
+  position: relative;
+  left: 180px;
+>>>>>>> 7c1275a89894d54d51420188b46b87e3e4621b93
 }
